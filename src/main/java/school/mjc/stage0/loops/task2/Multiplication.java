@@ -8,7 +8,7 @@ public class Multiplication {
                 System.out.println(caunter*multiplyByAndToInclusive*-1);
                 caunter--;
             }
-        } else {
+        } else if(multiplyByAndToInclusive>0)  {
             int caunter = 0;
             while (caunter <= multiplyByAndToInclusive) {
                 System.out.println(caunter * multiplyByAndToInclusive);
