@@ -9,7 +9,7 @@ public class Multiplication {
                 caunter--;
             }
         } else {
-            int caunter = 1;
+            int caunter = 0;
             while (caunter <= multiplyByAndToInclusive) {
                 System.out.println(caunter * multiplyByAndToInclusive);
                 caunter++;
